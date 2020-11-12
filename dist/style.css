@@ -2,7 +2,7 @@ body{
     display: grid;
     justify-content: center;
     font-family: 'Montserrat', sans-serif;
-    background-color: #ecf0f1
+    background-color: #ecf0f1;
 }
 
 .user-input{
@@ -15,6 +15,7 @@ body{
 input{
     padding: 5px;
     font-family: 'Montserrat', sans-serif;
+    width: 280px;
 }
 
 button{
@@ -24,7 +25,7 @@ button{
 
 #todos{
     display: grid;
-    justify-content: center
+    justify-content: center;
 }
 
 .todo{
@@ -39,7 +40,7 @@ button{
 }
 
 .todo.complete .text{
-    text-decoration-line: line-through
+    text-decoration-line: line-through;
 }
 
 .todo *{
