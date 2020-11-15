@@ -36,8 +36,20 @@ button{
     border-radius: 3px;
     display: grid;
     grid-template-columns: 5% 90% 5%;
-    background-color: #7ed6df;
 }
+
+.todo-normal {
+    background-color: rgb(126, 214, 223);
+}
+
+.todo-yellow {
+    background-color: yellow;
+}
+
+.todo-orange {
+    background-color: orange;
+}
+
 
 .todo.complete .text{
     text-decoration-line: line-through;
